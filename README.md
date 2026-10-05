@@ -6,11 +6,17 @@
 [![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu&logoColor=white)](https://releases.ubuntu.com/22.04/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Khadeeja Khan · Hassaan Muhammad Khan · Narmeen Sabah Siddiqui · Abdul Rafey Beig
-Supervisor: Commodore Dr Attaullah Y. Memon
+Khadeeja Khan · Hassaan Muhammad Khan · Narmeen Sabah Siddiqui · Abdul Rafey Beig<br>
+Supervisor: Commodore Dr Attaullah Y. Memon<br>
 Pakistan Navy Engineering College, National University of Sciences and Technology (NUST), Pakistan, Spring 2025
 
-📄 [Full report (PDF)](Report+Presentation/Autonomous_SLAM_Navigation_Delivery_Robot.pdf) · 📊 [Slides (PPTX)](Report+Presentation/Autonomous_SLAM_Navigation_Delivery_Robot.pptx) · 🎥 [Simulation video](<Assets/ros simulation_compressed.mp4>) · 🛠️ [Mechanical CAD](<Assets/mechanical design.rar>)
+📄 [Full report (PDF)](Report+Presentation/Autonomous_SLAM_Navigation_Delivery_Robot.pdf) · 📊 [Slides (PPTX)](Report+Presentation/Autonomous_SLAM_Navigation_Delivery_Robot.pptx) · 🎬 [Project video](Assets/FYP_DisplayVideo.mp4) · 🎥 [Simulation video](<Assets/ros simulation_compressed.mp4>) · 🛠️ [Mechanical CAD](<Assets/mechanical design.rar>)
+
+### Project Video
+
+https://github.com/user-attachments/assets/0864337d-0213-44a8-b935-acf943a1f0ec
+
+<p align="center"><em>Project introduction video, shown at the final year project presentation.</em></p>
 
 <div align="center">
   <img src="./Assets/Robot.png" width="360" alt="Robot prototype">
