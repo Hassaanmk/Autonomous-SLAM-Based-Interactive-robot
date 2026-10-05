@@ -1,0 +1,10 @@
+[submodule "Software Stack/ros2_ws/src/serial"]
+	path = Software Stack/ros2_ws/src/serial
+	url = https://github.com/joshnewans/serial.git
+[submodule "Software Stack/ros2_ws/src/serial_motor_demo"]
+	path = Software Stack/ros2_ws/src/serial_motor_demo
+	url = https://github.com/joshnewans/serial_motor_demo.git
+[submodule "Software Stack/ros2_ws/src/diffdrive_arduino"]
+	path = Software Stack/ros2_ws/src/diffdrive_arduino
+	url = https://github.com/joshnewans/diffdrive_arduino.git
+	branch = humble
