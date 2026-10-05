@@ -18,11 +18,12 @@ https://github.com/user-attachments/assets/0864337d-0213-44a8-b935-acf943a1f0ec
 
 <p align="center"><em>Project introduction video, shown at the final year project presentation.</em></p>
 
-<div align="center">
-  <img src="./Assets/Robot.png" width="360" alt="Robot prototype">
-  &nbsp;&nbsp;
-  <img src="./Assets/download.gif" width="150" alt="Robot face animation" align="middle">
-</div>
+<table align="center">
+  <tr>
+    <td valign="middle"><img src="./Assets/Robot.png" width="360" alt="Robot prototype"></td>
+    <td valign="middle"><img src="./Assets/download.gif" width="150" alt="Robot face animation"></td>
+  </tr>
+</table>
 
 ---
 
