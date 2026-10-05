@@ -30,6 +30,9 @@ def generate_launch_description():
             PathJoinSubstitution(
                 [FindPackageShare("my_bot"), 'description', "robot.urdf.xacro"]
             ),
+            # Pass the launch args to xacro so Gazebo gets the simulated hardware, not the Arduino
+            " use_ros2_control:=", use_ros2_control,
+            " sim_mode:=", use_sim_time,
         ]
     )
     # Create a robot_state_publisher node
