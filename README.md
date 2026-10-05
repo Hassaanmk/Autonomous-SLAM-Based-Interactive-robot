@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/0864337d-0213-44a8-b935-acf943a1f0ec
 <div align="center">
   <img src="./Assets/Robot.png" width="360" alt="Robot prototype">
   &nbsp;&nbsp;
-  <img src="./Assets/download.gif" width="150" alt="Robot face animation" align="top">
+  <img src="./Assets/download.gif" width="150" alt="Robot face animation" align="middle">
 </div>
 
 ---
