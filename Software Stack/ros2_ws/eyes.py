@@ -1,5 +1,6 @@
 import pygame
 import sys
+import math
 from time import sleep
 
 pygame.init()
@@ -45,10 +46,17 @@ while running:
             running = False
 
     # Calculate pupil positions based on angle
-    pupil_x1 = int(EYE_X1 + EYE_RADIUS * 0.5 * pygame.math.cos(angle))
-    pupil_y1 = int(EYE_Y1 + EYE_RADIUS * 0.5 * pygame.math.sin(angle))
-    pupil_x2 = int(EYE_X2 + EYE_RADIUS * 0.5 * pygame.math.cos(angle + 3.14))  # Offset for right eye
-    pupil_y2 = int(EYE_Y2 + EYE_RADIUS * 0.5 * pygame.math.sin(angle + 3.14))
+    try:
+        pupil_x1 = int(EYE_X1 + EYE_RADIUS * 0.5 * pygame.math.cos(angle))
+        pupil_y1 = int(EYE_Y1 + EYE_RADIUS * 0.5 * pygame.math.sin(angle))
+        pupil_x2 = int(EYE_X2 + EYE_RADIUS * 0.5 * pygame.math.cos(angle + 3.14))  # Offset for right eye
+        pupil_y2 = int(EYE_Y2 + EYE_RADIUS * 0.5 * pygame.math.sin(angle + 3.14))
+    except AttributeError:
+        # pygame.math has no cos/sin, so fall back to Python's math module
+        pupil_x1 = int(EYE_X1 + EYE_RADIUS * 0.5 * math.cos(angle))
+        pupil_y1 = int(EYE_Y1 + EYE_RADIUS * 0.5 * math.sin(angle))
+        pupil_x2 = int(EYE_X2 + EYE_RADIUS * 0.5 * math.cos(angle + 3.14))  # Offset for right eye
+        pupil_y2 = int(EYE_Y2 + EYE_RADIUS * 0.5 * math.sin(angle + 3.14))
 
     # Draw the eyes with moving pupils
     draw_eyes(pupil_x1, pupil_y1, pupil_x2, pupil_y2)
